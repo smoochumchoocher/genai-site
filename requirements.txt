@@ -2,5 +2,5 @@ streamlit
 langchain
 langchain_community
 openai
-chromadb == 0.3.25
+pip install chromadb
 tiktoken
