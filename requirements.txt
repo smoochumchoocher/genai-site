@@ -1,0 +1,6 @@
+pip==24.2
+streamlit
+langchain
+langchain_community
+openai
+tiktoken
