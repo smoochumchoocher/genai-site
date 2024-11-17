@@ -5,3 +5,4 @@ langchain_community
 openai
 tiktoken
 chromadb
+pysqlite3-binary
