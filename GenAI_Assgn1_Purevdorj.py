@@ -41,3 +41,8 @@ with st.form('myform', clear_on_submit=True):
 
 if len(result):
     st.info(response)
+
+#logging output to help debug SQLite interactions and verify the version
+import sqlite3
+import streamlit as st
+st.write(f"SQLite version: {sqlite3.sqlite_version}")
