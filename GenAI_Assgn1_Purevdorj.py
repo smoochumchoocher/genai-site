@@ -1,5 +1,4 @@
 #importing libraries. Had to import langachain_community separately because it was showing errors.
-pip install streamlit langchain langchain_community openai tiktoken
 import streamlit as st
 from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
