@@ -19,7 +19,8 @@ def generate_response(uploaded_file, openai_api_key, query_text):
         # Select embeddings
         embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
         # Create a vectorstore from documents
-        db = Chroma.from_documents(texts, embeddings)
+        db = Chroma.from_documents(texts, embeddings, persist_directory=".chromadb")
+        db.persist()
         # Create retriever interface
         retriever = db.as_retriever()
         # Create QA chain
