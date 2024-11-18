@@ -18,7 +18,7 @@ def generate_response(uploaded_file, openai_api_key, query_text):
         texts = text_splitter.create_documents(documents)
         # Select embeddings
         embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
-        # Create a vectorstore from documents
+        # Create a vectorstore from documents and make sure chroma has a working persistent directory.
         db = Chroma.from_documents(texts, embeddings, persist_directory=".chromadb")
         db.persist()
         # Create retriever interface
