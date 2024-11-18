@@ -1,5 +1,5 @@
-streamlit==1.32.0
-langchain==0.3.7
-langchain_community==0.3.7
-openai==1.54.4
-chromadb==0.3.25
+streamlit
+langchain
+langchain_community
+openai
+chromadb
