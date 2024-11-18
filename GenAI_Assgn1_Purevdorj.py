@@ -39,15 +39,10 @@ result = []
 with st.form('myform', clear_on_submit=True):
     openai_api_key = st.text_input('OpenAI API Key', type='password', disabled=not (uploaded_file and query_text))
     submitted = st.form_submit_button('Submit', disabled=not(uploaded_file and query_text))
-    required_key = "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"
-    
-    if submitted and openai_api_key == required_key:
+    if submitted and openai_api_key.startswith('sk-'):
         with st.spinner('Calculating...'):
             response = generate_response(uploaded_file, openai_api_key, query_text)
             result.append(response)
-            del openai_api_key
-    elif submitted:
-        st.error("Invalid API key: It does not match the required key.")
-        
+
 if len(result):
     st.info(response)
