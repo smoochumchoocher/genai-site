@@ -9,8 +9,8 @@ from langchain.chains import RetrievalQA
 import subprocess
 import sys
 
-__import__("pysqlite3")
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+__import__("pysqlite3-binary")
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3-binary")
 
 def generate_response(uploaded_file, openai_api_key, query_text):
     # Load document if file is uploaded
