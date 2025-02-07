@@ -1,4 +1,4 @@
-Hi\! Here is a link to my [application](https://https://genai-site-up.streamlit.app/). Please let me know if you have any questions, thanks\!
+Hi\! Here is a link to my [application](https://genai-site-up.streamlit.app/). Please let me know if you have any questions, thanks\!
 
 ### **How It Works**
 
@@ -25,3 +25,4 @@ Hi\! Here is a link to my [application](https://https://genai-site-up.streamlit.
    * Copy the generated API key. **Important:** You can only view the key once, so make sure to store it securely (e.g., in a password manager or text file).  
 5. **Start Using Your API Key**  
    * Paste the key into the app where prompted to enable access to OpenAI’s services.
+
