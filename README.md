@@ -1,4 +1,4 @@
-Hi\! Here is a link to my [application](https://genai-assignment1.streamlit.app/). Please let me know if you have any questions, thanks\!
+Hi\! Here is a link to my [application](https://https://genai-site-up.streamlit.app/). Please let me know if you have any questions, thanks\!
 
 ### **How It Works**
 
