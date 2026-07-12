@@ -3,7 +3,7 @@ from langchain_openai import OpenAI
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-from langchain.chains import RetrievalQA
+from langchain_classic.chains import RetrievalQA
 
 __import__("pysqlite3")
 import sys
