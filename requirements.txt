@@ -1,5 +1,6 @@
 langchain
 langchain-text-splitters
+langchain-classic
 streamlit
 langchain-openai
 langchain-community
