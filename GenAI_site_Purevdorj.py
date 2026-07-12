@@ -1,7 +1,7 @@
 import streamlit as st
-from langchain.openai import OpenAI
+from langchain_openai import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 
